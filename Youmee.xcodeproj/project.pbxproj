@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80403461E421F3600B4D81E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80403441E421F3600B4D81E /* Main.storyboard */; };
+		F844762C1E3E4748008CF02D /* FirstTutoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F844762B1E3E4748008CF02D /* FirstTutoVC.swift */; };
+		F87497761E513D8900886DF0 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87497751E513D8900886DF0 /* Mapbox.framework */; };
+		F87C83BE1E487196004099E5 /* profileCustomSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C83BD1E487196004099E5 /* profileCustomSC.swift */; };
+		F87C83C01E48A5D1004099E5 /* myProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C83BF1E48A5D1004099E5 /* myProfileVC.swift */; };
+		F87D671B1E3B5AF7007484E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D671A1E3B5AF7007484E6 /* AppDelegate.swift */; };
+		F87D671D1E3B5AF7007484E6 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D671C1E3B5AF7007484E6 /* loginVC.swift */; };
+		F87D67231E3B5AF7007484E6 /* Youmee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F87D67211E3B5AF7007484E6 /* Youmee.xcdatamodeld */; };
+		F87D67281E3B5AF7007484E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87D67261E3B5AF7007484E6 /* LaunchScreen.storyboard */; };
+		F87D67331E3B5AF7007484E6 /* YoumeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D67321E3B5AF7007484E6 /* YoumeeTests.swift */; };
+		F87D673E1E3B5AF7007484E6 /* YoumeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D673D1E3B5AF7007484E6 /* YoumeeUITests.swift */; };
+		F8950A9D1E54F4F3006070C7 /* settingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8950A9C1E54F4F3006070C7 /* settingsVC.swift */; };
+		F89A88381E69779200D00C24 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89A88371E69779200D00C24 /* ProfileVC.swift */; };
+		F89A883A1E698E5400D00C24 /* myCustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89A88391E698E5400D00C24 /* myCustomCollectionCell.swift */; };
+		F89A883C1E699BC000D00C24 /* alertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89A883B1E699BC000D00C24 /* alertVC.swift */; };
+		F89F6CFE1E450F1600684224 /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F6CFD1E450F1600684224 /* CustomTabBarVC.swift */; };
+		F8A810D41E3EB1F1000C4038 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A810D31E3EB1F1000C4038 /* FBSDKLoginKit.framework */; };
+		F8A810D61E3EB20B000C4038 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A810D51E3EB20B000C4038 /* FBSDKCoreKit.framework */; };
+		F8A810D81E3EB364000C4038 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A810D71E3EB364000C4038 /* Bolts.framework */; };
+		F8A810DA1E3EB51C000C4038 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A810D91E3EB51C000C4038 /* FBSDKShareKit.framework */; };
+		F8A810DE1E3EBB5B000C4038 /* mapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A810DD1E3EBB5B000C4038 /* mapVC.swift */; };
+		F8D048971E4FD9E5006A124D /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D048961E4FD9E5006A124D /* CustomCalloutView.swift */; };
+		F8D048991E4FE5EB006A124D /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D048981E4FE5EB006A124D /* CustomAnnotationView.swift */; };
+		F8D4684B1E4A02FC00A21CA2 /* trendingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4684A1E4A02FC00A21CA2 /* trendingVC.swift */; };
+		F8D82B771E4A04F600E410C8 /* trendingCustomSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D82B761E4A04F600E410C8 /* trendingCustomSC.swift */; };
+		F8D82B791E4A077A00E410C8 /* myTrendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D82B781E4A077A00E410C8 /* myTrendingTableViewCell.swift */; };
+		F8DFBF921E47AC7C00030F50 /* signupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFBF911E47AC7C00030F50 /* signupVC.swift */; };
+		F8DFBF941E47B28100030F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DFBF931E47B28100030F50 /* Assets.xcassets */; };
+		F8E97A621E4920C700BF0B1C /* myProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E97A611E4920C700BF0B1C /* myProfileTableViewCell.swift */; };
+		F8FBFD011E6454E0003E99B9 /* settingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FBFD001E6454E0003E99B9 /* settingsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F87D672F1E3B5AF7007484E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87D670F1E3B5AF6007484E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87D67161E3B5AF6007484E6;
+			remoteInfo = Youmee;
+		};
+		F87D673A1E3B5AF7007484E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87D670F1E3B5AF6007484E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87D67161E3B5AF6007484E6;
+			remoteInfo = Youmee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F895ADF41E5135D10026E137 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F80403451E421F3600B4D81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F844762B1E3E4748008CF02D /* FirstTutoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTutoVC.swift; sourceTree = "<group>"; };
+		F87497751E513D8900886DF0 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		F87C83BD1E487196004099E5 /* profileCustomSC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileCustomSC.swift; sourceTree = "<group>"; };
+		F87C83BF1E48A5D1004099E5 /* myProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myProfileVC.swift; sourceTree = "<group>"; };
+		F87D67171E3B5AF7007484E6 /* Youmee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youmee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87D671A1E3B5AF7007484E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F87D671C1E3B5AF7007484E6 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		F87D67221E3B5AF7007484E6 /* Youmee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Youmee.xcdatamodel; sourceTree = "<group>"; };
+		F87D67271E3B5AF7007484E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F87D67291E3B5AF7007484E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87D672E1E3B5AF7007484E6 /* YoumeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoumeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87D67321E3B5AF7007484E6 /* YoumeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoumeeTests.swift; sourceTree = "<group>"; };
+		F87D67341E3B5AF7007484E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87D67391E3B5AF7007484E6 /* YoumeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoumeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87D673D1E3B5AF7007484E6 /* YoumeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoumeeUITests.swift; sourceTree = "<group>"; };
+		F87D673F1E3B5AF7007484E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8950A9C1E54F4F3006070C7 /* settingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsVC.swift; sourceTree = "<group>"; };
+		F89A88371E69779200D00C24 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F89A88391E698E5400D00C24 /* myCustomCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCustomCollectionCell.swift; sourceTree = "<group>"; };
+		F89A883B1E699BC000D00C24 /* alertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alertVC.swift; sourceTree = "<group>"; };
+		F89F6CFD1E450F1600684224 /* CustomTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
+		F8A810D31E3EB1F1000C4038 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F8A810D51E3EB20B000C4038 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F8A810D71E3EB364000C4038 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F8A810D91E3EB51C000C4038 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		F8A810DD1E3EBB5B000C4038 /* mapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapVC.swift; sourceTree = "<group>"; };
+		F8D048961E4FD9E5006A124D /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
+		F8D048981E4FE5EB006A124D /* CustomAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		F8D4684A1E4A02FC00A21CA2 /* trendingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trendingVC.swift; sourceTree = "<group>"; };
+		F8D82B761E4A04F600E410C8 /* trendingCustomSC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trendingCustomSC.swift; sourceTree = "<group>"; };
+		F8D82B781E4A077A00E410C8 /* myTrendingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myTrendingTableViewCell.swift; sourceTree = "<group>"; };
+		F8DFBF911E47AC7C00030F50 /* signupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupVC.swift; sourceTree = "<group>"; };
+		F8DFBF931E47B28100030F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8E97A611E4920C700BF0B1C /* myProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myProfileTableViewCell.swift; sourceTree = "<group>"; };
+		F8FBFD001E6454E0003E99B9 /* settingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F87D67141E3B5AF6007484E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87497761E513D8900886DF0 /* Mapbox.framework in Frameworks */,
+				F8A810DA1E3EB51C000C4038 /* FBSDKShareKit.framework in Frameworks */,
+				F8A810D81E3EB364000C4038 /* Bolts.framework in Frameworks */,
+				F8A810D41E3EB1F1000C4038 /* FBSDKLoginKit.framework in Frameworks */,
+				F8A810D61E3EB20B000C4038 /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D672B1E3B5AF7007484E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D67361E3B5AF7007484E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F87D670E1E3B5AF6007484E6 = {
+			isa = PBXGroup;
+			children = (
+				F8A810D01E3EB04A000C4038 /* Frameworks */,
+				F87D67191E3B5AF7007484E6 /* Youmee */,
+				F87D67311E3B5AF7007484E6 /* YoumeeTests */,
+				F87D673C1E3B5AF7007484E6 /* YoumeeUITests */,
+				F87D67181E3B5AF7007484E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F87D67181E3B5AF7007484E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F87D67171E3B5AF7007484E6 /* Youmee.app */,
+				F87D672E1E3B5AF7007484E6 /* YoumeeTests.xctest */,
+				F87D67391E3B5AF7007484E6 /* YoumeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F87D67191E3B5AF7007484E6 /* Youmee */ = {
+			isa = PBXGroup;
+			children = (
+				F8D4684F1E4A03EC00A21CA2 /* Login */,
+				F8D4684E1E4A03D100A21CA2 /* Map */,
+				F8D4684D1E4A03CB00A21CA2 /* Trending */,
+				F8D4684C1E4A03C500A21CA2 /* Profile */,
+				F8DFBF931E47B28100030F50 /* Assets.xcassets */,
+				F80403441E421F3600B4D81E /* Main.storyboard */,
+				F87D671A1E3B5AF7007484E6 /* AppDelegate.swift */,
+				F87D67261E3B5AF7007484E6 /* LaunchScreen.storyboard */,
+				F87D67291E3B5AF7007484E6 /* Info.plist */,
+				F87D67211E3B5AF7007484E6 /* Youmee.xcdatamodeld */,
+			);
+			path = Youmee;
+			sourceTree = "<group>";
+		};
+		F87D67311E3B5AF7007484E6 /* YoumeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F87D67321E3B5AF7007484E6 /* YoumeeTests.swift */,
+				F87D67341E3B5AF7007484E6 /* Info.plist */,
+			);
+			path = YoumeeTests;
+			sourceTree = "<group>";
+		};
+		F87D673C1E3B5AF7007484E6 /* YoumeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F87D673D1E3B5AF7007484E6 /* YoumeeUITests.swift */,
+				F87D673F1E3B5AF7007484E6 /* Info.plist */,
+			);
+			path = YoumeeUITests;
+			sourceTree = "<group>";
+		};
+		F8A810D01E3EB04A000C4038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F87497751E513D8900886DF0 /* Mapbox.framework */,
+				F8A810D91E3EB51C000C4038 /* FBSDKShareKit.framework */,
+				F8A810D71E3EB364000C4038 /* Bolts.framework */,
+				F8A810D51E3EB20B000C4038 /* FBSDKCoreKit.framework */,
+				F8A810D31E3EB1F1000C4038 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D4684C1E4A03C500A21CA2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F87C83BD1E487196004099E5 /* profileCustomSC.swift */,
+				F87C83BF1E48A5D1004099E5 /* myProfileVC.swift */,
+				F8E97A611E4920C700BF0B1C /* myProfileTableViewCell.swift */,
+				F8950A9C1E54F4F3006070C7 /* settingsVC.swift */,
+				F8FBFD001E6454E0003E99B9 /* settingsCell.swift */,
+				F89A88371E69779200D00C24 /* ProfileVC.swift */,
+				F89A88391E698E5400D00C24 /* myCustomCollectionCell.swift */,
+				F89A883B1E699BC000D00C24 /* alertVC.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		F8D4684D1E4A03CB00A21CA2 /* Trending */ = {
+			isa = PBXGroup;
+			children = (
+				F8D4684A1E4A02FC00A21CA2 /* trendingVC.swift */,
+				F8D82B761E4A04F600E410C8 /* trendingCustomSC.swift */,
+				F8D82B781E4A077A00E410C8 /* myTrendingTableViewCell.swift */,
+			);
+			name = Trending;
+			sourceTree = "<group>";
+		};
+		F8D4684E1E4A03D100A21CA2 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F8A810DD1E3EBB5B000C4038 /* mapVC.swift */,
+				F8D048961E4FD9E5006A124D /* CustomCalloutView.swift */,
+				F8D048981E4FE5EB006A124D /* CustomAnnotationView.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		F8D4684F1E4A03EC00A21CA2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F89F6CFD1E450F1600684224 /* CustomTabBarVC.swift */,
+				F87D671C1E3B5AF7007484E6 /* loginVC.swift */,
+				F844762B1E3E4748008CF02D /* FirstTutoVC.swift */,
+				F8DFBF911E47AC7C00030F50 /* signupVC.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F87D67161E3B5AF6007484E6 /* Youmee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87D67421E3B5AF7007484E6 /* Build configuration list for PBXNativeTarget "Youmee" */;
+			buildPhases = (
+				F87D67131E3B5AF6007484E6 /* Sources */,
+				F87D67141E3B5AF6007484E6 /* Frameworks */,
+				F87D67151E3B5AF6007484E6 /* Resources */,
+				F895ADF41E5135D10026E137 /* CopyFiles */,
+				F87497741E513CCC00886DF0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Youmee;
+			productName = Youmee;
+			productReference = F87D67171E3B5AF7007484E6 /* Youmee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F87D672D1E3B5AF7007484E6 /* YoumeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87D67451E3B5AF7007484E6 /* Build configuration list for PBXNativeTarget "YoumeeTests" */;
+			buildPhases = (
+				F87D672A1E3B5AF7007484E6 /* Sources */,
+				F87D672B1E3B5AF7007484E6 /* Frameworks */,
+				F87D672C1E3B5AF7007484E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87D67301E3B5AF7007484E6 /* PBXTargetDependency */,
+			);
+			name = YoumeeTests;
+			productName = YoumeeTests;
+			productReference = F87D672E1E3B5AF7007484E6 /* YoumeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F87D67381E3B5AF7007484E6 /* YoumeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87D67481E3B5AF7007484E6 /* Build configuration list for PBXNativeTarget "YoumeeUITests" */;
+			buildPhases = (
+				F87D67351E3B5AF7007484E6 /* Sources */,
+				F87D67361E3B5AF7007484E6 /* Frameworks */,
+				F87D67371E3B5AF7007484E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87D673B1E3B5AF7007484E6 /* PBXTargetDependency */,
+			);
+			name = YoumeeUITests;
+			productName = YoumeeUITests;
+			productReference = F87D67391E3B5AF7007484E6 /* YoumeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F87D670F1E3B5AF6007484E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = incrediApps;
+				TargetAttributes = {
+					F87D67161E3B5AF6007484E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G8XCAXGYV2;
+						ProvisioningStyle = Automatic;
+					};
+					F87D672D1E3B5AF7007484E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TZ8N69H6WG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F87D67161E3B5AF6007484E6;
+					};
+					F87D67381E3B5AF7007484E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G8XCAXGYV2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F87D67161E3B5AF6007484E6;
+					};
+				};
+			};
+			buildConfigurationList = F87D67121E3B5AF6007484E6 /* Build configuration list for PBXProject "Youmee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F87D670E1E3B5AF6007484E6;
+			productRefGroup = F87D67181E3B5AF7007484E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F87D67161E3B5AF6007484E6 /* Youmee */,
+				F87D672D1E3B5AF7007484E6 /* YoumeeTests */,
+				F87D67381E3B5AF7007484E6 /* YoumeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F87D67151E3B5AF6007484E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80403461E421F3600B4D81E /* Main.storyboard in Resources */,
+				F8DFBF941E47B28100030F50 /* Assets.xcassets in Resources */,
+				F87D67281E3B5AF7007484E6 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D672C1E3B5AF7007484E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D67371E3B5AF7007484E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F87497741E513CCC00886DF0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F87D67131E3B5AF6007484E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D82B791E4A077A00E410C8 /* myTrendingTableViewCell.swift in Sources */,
+				F8A810DE1E3EBB5B000C4038 /* mapVC.swift in Sources */,
+				F8D4684B1E4A02FC00A21CA2 /* trendingVC.swift in Sources */,
+				F87D671D1E3B5AF7007484E6 /* loginVC.swift in Sources */,
+				F8D048991E4FE5EB006A124D /* CustomAnnotationView.swift in Sources */,
+				F89A883C1E699BC000D00C24 /* alertVC.swift in Sources */,
+				F8950A9D1E54F4F3006070C7 /* settingsVC.swift in Sources */,
+				F8DFBF921E47AC7C00030F50 /* signupVC.swift in Sources */,
+				F844762C1E3E4748008CF02D /* FirstTutoVC.swift in Sources */,
+				F8D82B771E4A04F600E410C8 /* trendingCustomSC.swift in Sources */,
+				F87C83C01E48A5D1004099E5 /* myProfileVC.swift in Sources */,
+				F8FBFD011E6454E0003E99B9 /* settingsCell.swift in Sources */,
+				F8D048971E4FD9E5006A124D /* CustomCalloutView.swift in Sources */,
+				F89A88381E69779200D00C24 /* ProfileVC.swift in Sources */,
+				F89F6CFE1E450F1600684224 /* CustomTabBarVC.swift in Sources */,
+				F89A883A1E698E5400D00C24 /* myCustomCollectionCell.swift in Sources */,
+				F87D67231E3B5AF7007484E6 /* Youmee.xcdatamodeld in Sources */,
+				F87D671B1E3B5AF7007484E6 /* AppDelegate.swift in Sources */,
+				F87C83BE1E487196004099E5 /* profileCustomSC.swift in Sources */,
+				F8E97A621E4920C700BF0B1C /* myProfileTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D672A1E3B5AF7007484E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87D67331E3B5AF7007484E6 /* YoumeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87D67351E3B5AF7007484E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87D673E1E3B5AF7007484E6 /* YoumeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F87D67301E3B5AF7007484E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87D67161E3B5AF6007484E6 /* Youmee */;
+			targetProxy = F87D672F1E3B5AF7007484E6 /* PBXContainerItemProxy */;
+		};
+		F87D673B1E3B5AF7007484E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87D67161E3B5AF6007484E6 /* Youmee */;
+			targetProxy = F87D673A1E3B5AF7007484E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F80403441E421F3600B4D81E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80403451E421F3600B4D81E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F87D67261E3B5AF7007484E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87D67271E3B5AF7007484E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F87D67401E3B5AF7007484E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F87D67411E3B5AF7007484E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F87D67431E3B5AF7007484E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8XCAXGYV2;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Youmee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wolfy.Youmee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F87D67441E3B5AF7007484E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8XCAXGYV2;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Youmee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wolfy.Youmee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F87D67461E3B5AF7007484E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TZ8N69H6WG;
+				INFOPLIST_FILE = YoumeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wolfy.YoumeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Youmee.app/Youmee";
+			};
+			name = Debug;
+		};
+		F87D67471E3B5AF7007484E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TZ8N69H6WG;
+				INFOPLIST_FILE = YoumeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wolfy.YoumeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Youmee.app/Youmee";
+			};
+			name = Release;
+		};
+		F87D67491E3B5AF7007484E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G8XCAXGYV2;
+				INFOPLIST_FILE = YoumeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wolfy.YoumeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Youmee;
+			};
+			name = Debug;
+		};
+		F87D674A1E3B5AF7007484E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G8XCAXGYV2;
+				INFOPLIST_FILE = YoumeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wolfy.YoumeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Youmee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F87D67121E3B5AF6007484E6 /* Build configuration list for PBXProject "Youmee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87D67401E3B5AF7007484E6 /* Debug */,
+				F87D67411E3B5AF7007484E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87D67421E3B5AF7007484E6 /* Build configuration list for PBXNativeTarget "Youmee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87D67431E3B5AF7007484E6 /* Debug */,
+				F87D67441E3B5AF7007484E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87D67451E3B5AF7007484E6 /* Build configuration list for PBXNativeTarget "YoumeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87D67461E3B5AF7007484E6 /* Debug */,
+				F87D67471E3B5AF7007484E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87D67481E3B5AF7007484E6 /* Build configuration list for PBXNativeTarget "YoumeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87D67491E3B5AF7007484E6 /* Debug */,
+				F87D674A1E3B5AF7007484E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F87D67211E3B5AF7007484E6 /* Youmee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F87D67221E3B5AF7007484E6 /* Youmee.xcdatamodel */,
+			);
+			currentVersion = F87D67221E3B5AF7007484E6 /* Youmee.xcdatamodel */;
+			path = Youmee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F87D670F1E3B5AF6007484E6 /* Project object */;
+}
